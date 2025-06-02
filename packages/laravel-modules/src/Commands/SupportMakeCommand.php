@@ -23,7 +23,8 @@ class SupportMakeCommand extends GeneratorCommand
     {
         $module = $this->laravel['modules'];
 
-        return $module->config('paths.generator.support.namespace') ?: $module->config('paths.generator.support.path', 'Support');
+        return $module->config('paths.generator.support.namespace') ?: $module->config('paths.generator.support.path',
+            'Support');
     }
 
     protected function getArguments()
@@ -44,7 +45,7 @@ class SupportMakeCommand extends GeneratorCommand
     {
         $module = $this->laravel['modules']->findOrFail($this->getModuleName());
 
-        return (new Stub('/moduleinfo.stub', [
+        return (new Stub('/Moduleinfo.stub', [
             'NAMESPACE' => $this->getClassNamespace($module),
             'MODULE' => $this->getModuleName(),
         ]))->render();
@@ -59,7 +60,7 @@ class SupportMakeCommand extends GeneratorCommand
         $pathName = Str::studly($this->option('support'));
 
         if (Str::contains(strtolower($pathName), 'support') === false) {
-            $pathName .= 'moduleInfo';
+            $pathName .= 'ModuleInfo';
         }
 
         return $pathName;
@@ -71,18 +72,18 @@ class SupportMakeCommand extends GeneratorCommand
         $path = $this->laravel['modules']->getModulePath($this->getModuleName());
         $helperPath = GenerateConfigReader::read('support');
 
-        return $path.$helperPath->getPath().'/'.$this->getPathName().'.php';
+        return $path . $helperPath->getPath() . '/' . $this->getPathName() . '.php';
     }
 
     protected function getFileName()
     {
-        return 'moduleInfo';
+        return 'ModuleInfo';
     }
 
     /**
      * Get class namespace.
      *
-     * @param  \Nwidart\Modules\Module  $module
+     * @param \Nwidart\Modules\Module $module
      * @return string
      */
     public function getClassNamespace($module)
@@ -93,11 +94,11 @@ class SupportMakeCommand extends GeneratorCommand
 
         $namespace = $this->laravel['modules']->config('namespace');
 
-        $namespace .= '\\'.$module->getStudlyName();
+        $namespace .= '\\' . $module->getStudlyName();
 
-        $namespace .= '\\'.$this->getDefaultNamespace();
+        $namespace .= '\\' . $this->getDefaultNamespace();
 
-        $namespace .= '\\'.$extra;
+        $namespace .= '\\' . $extra;
 
         $namespace = str_replace('/', '\\', $namespace);
 
