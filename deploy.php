@@ -22,19 +22,19 @@ add('writable_dirs', ['storage', 'vendor', 'bootstrap/cache']);            // Wr
 
 // Core Tasks
 
-//task('npm:install', function () {
-//    run("cd {{release_path}} && /usr/bin/npm install");
-//})->desc('Running npm install');
+task('npm:install', function () {
+    run("cd {{release_path}} && /usr/bin/npm install");
+})->desc('Running npm install');
 
-//task('npm:build', function () {
-//    run("cd {{release_path}} && /usr/bin/npm run build");
-//})->desc('Running npm build');
+task('npm:build', function () {
+    run("cd {{release_path}} && /usr/bin/npm run build");
+})->desc('Running npm build');
 
-//task('build', function () {
-#cd('{{release_path}}');
-#run('/usr/bin/npm install');
-#run('/usr/bin/npm run build');
-//});
+task('build', function () {
+cd('{{release_path}}');
+run('/usr/bin/npm install');
+run('/usr/bin/npm run build');
+});
 
 // Hosts
 
@@ -54,7 +54,7 @@ host('prod')
 
 // Hooks
 
-//after('deploy:update_code', 'build');
+after('deploy:update_code', 'build');
 after('deploy:success', 'artisan:config:clear');
 after('deploy:success', 'artisan:route:clear');
 after('deploy:success', 'artisan:cache:clear');
