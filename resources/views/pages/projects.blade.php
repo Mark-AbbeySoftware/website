@@ -1,4 +1,4 @@
-@extends('stylist::layouts.master')
+@extends('layouts.master')
 
 @section('content')
 
@@ -12,32 +12,32 @@
 
     </div>
 
-    @include('stylist::partials.navigation')
+    @include('partials.navigation')
     <div id="sb-page-structure">
         <!--htmlhint attr-no-duplication:false -->
 
-        <section id="resources-hero" class="sb-section
+        <section id="projects-hero" class="sb-section
                   sb-section-opt-dark
                   has-background
 
-                  option-width-default option-align-left option-section-hero option-background-image-fixed option-link-decoration-border-bottom-static option-background-image-grayscale"
-                 data-sb-id="aa3bcad0-5177-449f-9198-68cb791bd89c" style="
-           min-height: auto;
+                  option-section-hero option-background-image-grayscale option-align-center option-background-image-fixed option-link-decoration-border-bottom-static"
+                 data-sb-id="a2d6fdc6-648f-49bc-a6e7-020053c6cb23" style="
+           min-height: 50vh;
            ">
 
 
-            <div data-custom-media-style="9713aa9d-6f27-4e4f-ada0-7b753ff5b632" class="sb-background " data-bg="
+            <div data-custom-media-style="d0e84c13-f0c2-4f2a-996b-272b5617bf4b" class="sb-background " data-bg="
 
-              linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+              linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
 
-            url('../cdn.b12.io/client_media/gLX4vMGW/f102e030-3fb0-11f0-a9c7-0242ac110002-jpg-hero_image.jpeg')
+            url('../cdn.b12.io/client_media/gLX4vMGW/a940ed82-3fb0-11f0-84d4-0242ac110002-jpg-hero_image.jpeg')
           " style="
 
             background-image:
 
-                linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+                linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
 
-              url('../cdn.b12.io/client_media/gLX4vMGW/f102e030-3fb0-11f0-a9c7-0242ac110002-jpg-hero_image.jpeg')
+              url('../cdn.b12.io/client_media/gLX4vMGW/a940ed82-3fb0-11f0-84d4-0242ac110002-jpg-hero_image.jpeg')
           "></div>
 
 
@@ -46,7 +46,7 @@
                 sb-container">
                 <!--htmlhint spec-char-escape:false -->
 
-                <div id="sb-id-41e88d35-96be-4113-9469-9b7cad413a79" class="row
+                <div id="sb-id-13bdc18b-f797-47de-8e0b-09768333eb6f" class="row
               sb-row
               sb-row-opt-padding-top-large
               sb-row-opt-padding-bottom-large
@@ -56,7 +56,7 @@
                     <!--htmlhint spec-char-escape:false -->
 
 
-                    <div id="sb-id-fe3d8017-5993-4ec7-9c3f-4c4122645b2a" class="sb-column
+                    <div id="sb-id-f9e82b45-9d10-4669-bfa5-19a7e44e598b" class="sb-column
               col-xs-12
               col-sm-12
               col-md-12
@@ -76,13 +76,13 @@
               ">
 
 
-                        <div id="sb-id-921a3894-da8b-4152-8ed4-0c3ce6eefd7c" class="sb-column-content ">
+                        <div id="sb-id-12a1af29-7da7-4e3f-a0e0-536126e0a105" class="sb-column-content ">
 
                             <p>
 
                             </p>
                             <div class="sb-content sb-hero option-width sb-section-alignable has-sb-hero__paragraph"
-                                 data-sb-uuid="921a3894-da8b-4152-8ed4-0c3ce6eefd7c">
+                                 data-sb-uuid="12a1af29-7da7-4e3f-a0e0-536126e0a105">
                                 <div class="sb-hero__content-wrapper">
 
 
@@ -90,15 +90,15 @@
                                         data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-once="true"
                                         class="sb-title sb-hero__title" data-component-field="title"
                                         data-sb-field="text" data-sb-is-link="" data-sb-type="text"
-                                        data-sb-uuid="f142e8e3-c462-486d-a4e9-8aa92bb8f16b">Unlock your potential</h1>
+                                        data-sb-uuid="5a1b060a-bae0-4645-ae93-0d697072e6ad">Innovative solutions</h1>
 
 
                                     <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="50"
                                          data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-once="true"
                                          class="sb-subtitle sb-hero__subtitle" data-component-field="subtitle"
                                          data-sb-field="text" data-sb-is-link="" data-sb-type="text"
-                                         data-sb-uuid="903180d9-db4f-4507-9907-566e4987d453">Expert insights and
-                                        guidance for success
+                                         data-sb-uuid="573e224e-1e38-4091-afa5-e6d98e6ad4c8">Tailored laravel
+                                        development
                                     </div>
 
                                 </div>
@@ -122,12 +122,12 @@
 
         <!--htmlhint attr-no-duplication:false -->
 
-        <section id="resources" class="sb-section
+        <section id="projects" class="sb-section
                   sb-section-opt-light
 
 
-                  option-align-content-left option-background-image-fixed option-imagecrop-rectangle-landscape option-animate-image-fade option-columns-2col option-link-decoration-border-bottom-static option-grid-align-default option-imagesize-lg option-background-image-grayscale"
-                 data-sb-id="f0f6364e-99bc-48fc-9dc3-8eb7cb53cca2" style="
+                  option-grid-align-default option-background-image-grayscale option-align-content-left option-animate-image-fade option-imagecrop-square option-columns-4col option-imagesize-lg option-background-image-fixed option-link-decoration-border-bottom-static"
+                 data-sb-id="c04823d6-91f7-4b45-b516-ba8af59926c8" style="
 
            ">
 
@@ -136,7 +136,7 @@
                 sb-container">
                 <!--htmlhint spec-char-escape:false -->
 
-                <div id="sb-id-1e48d911-89fd-44b6-b2fb-fce5567fd880" class="row
+                <div id="sb-id-fcf8ee84-f8c8-42b7-b9e5-a5a6b362edb7" class="row
               sb-row
               sb-row-opt-padding-top-large
               sb-row-opt-padding-bottom-none
@@ -146,7 +146,7 @@
                     <!--htmlhint spec-char-escape:false -->
 
 
-                    <div id="sb-id-1a8872b1-27c7-4cb8-a94e-4424a385ca7b" class="sb-column
+                    <div id="sb-id-3e7b0759-9423-4dd8-8411-17cd43773ec5" class="sb-column
               col-xs-12
               col-sm-12
               col-md-12
@@ -166,7 +166,7 @@
               ">
 
 
-                        <div id="sb-id-0d7ab9f0-4929-4c4c-aa15-642b2e98f783" class="sb-column-content ">
+                        <div id="sb-id-a0251367-9066-4e60-bf6b-7028e26c01fc" class="sb-column-content ">
 
                             <p>
 
@@ -180,7 +180,8 @@
                                  data-aos-easing="ease-in-out" data-aos-once="true"
                                  class="sb-section-title sb-section-alignable option-width "
                                  data-component-field="title" data-sb-field="text" data-sb-is-link=""
-                                 data-sb-type="text" data-sb-uuid="3c752c16-7df9-44ac-913d-dcfb4081eae5">Expert insights
+                                 data-sb-type="text" data-sb-uuid="1bbfe73a-c201-4cae-83e3-b3263214c937">Innovative
+                                solutions
                             </div>
 
 
@@ -194,7 +195,7 @@
 
                 <!--htmlhint spec-char-escape:false -->
 
-                <div id="sb-id-08e0c9bf-bfb2-48c2-ae6f-5fb4acc3c827" class="row
+                <div id="sb-id-14a47928-98c6-4d67-8e42-6c646cbd9998" class="row
               sb-row
               sb-row-opt-padding-top-none
               sb-row-opt-padding-bottom-none
@@ -204,7 +205,7 @@
                     <!--htmlhint spec-char-escape:false -->
 
 
-                    <div id="sb-id-24def02c-c55b-4eab-b21a-92bad70cd15e" class="sb-column
+                    <div id="sb-id-db9b5a9a-2fea-4dfa-ab25-55deb0ab3b01" class="sb-column
               col-xs-12
               col-sm-12
               col-md-12
@@ -224,15 +225,15 @@
               ">
 
 
-                        <div id="sb-id-2c9c80d5-f029-45a5-87a9-b79b76073805" class="sb-column-content ">
+                        <div id="sb-id-1830e001-adbd-4786-aa26-770a97d4a68e" class="sb-column-content ">
 
                             <p></p>
                             <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="50" data-aos-duration="400"
                                  data-aos-easing="ease-in-out" data-aos-once="true"
                                  class="sb-section-subtitle sb-section-alignable option-width"
                                  data-component-field="subtitle" data-sb-field="text" data-sb-is-link=""
-                                 data-sb-type="text" data-sb-uuid="17a778c6-8e20-44ef-b220-b35a26e1c7ed">Unlock your
-                                potential with expert advice
+                                 data-sb-type="text" data-sb-uuid="3ce8d6bf-08cc-49d9-a656-27c472e5ef73">Tailored
+                                laravel applications for your needs.
                             </div>
 
 
@@ -246,7 +247,7 @@
 
                 <!--htmlhint spec-char-escape:false -->
 
-                <div id="sb-id-43e1eb92-90dc-4a4d-8e20-2e2cb868f770" class="row
+                <div id="sb-id-247e80f1-95eb-4613-8280-46abc78af845" class="row
               sb-row
               sb-row-opt-padding-top-none
               sb-row-opt-padding-bottom-small
@@ -256,7 +257,7 @@
                     <!--htmlhint spec-char-escape:false -->
 
 
-                    <div id="sb-id-3f32b46b-47aa-484c-a5dc-e9cc506617fc" class="sb-column
+                    <div id="sb-id-c3df5480-7377-4925-bd25-1cd6e26b31a7" class="sb-column
               col-xs-12
               col-sm-12
               col-md-12
@@ -276,13 +277,13 @@
               ">
 
 
-                        <div id="sb-id-4cb72d80-b020-422c-85bf-89cba3b095c3" class="sb-column-content ">
+                        <div id="sb-id-01ff37a9-aa53-4f5a-9a57-f6877f375755" class="sb-column-content ">
 
                             <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="100" data-aos-duration="400"
                                  data-aos-easing="ease-in-out" data-aos-once="true"
                                  class="sb-paragraph option-width sb-section-alignable" data-component-field="text"
                                  data-sb-field="text" data-sb-is-link="" data-sb-type="rich-text"
-                                 data-sb-uuid="35c6614b-f831-4e5b-90f6-81cdf0adf6cd">
+                                 data-sb-uuid="2be1f4d2-3f5c-4af3-81e7-b8f7b7d67d10">
                                 <p></p>
                             </div>
 
@@ -297,7 +298,7 @@
 
                 <!--htmlhint spec-char-escape:false -->
 
-                <div id="sb-id-a270e6fa-1994-4a56-9085-7607d730da4d" class="row
+                <div id="sb-id-da19da01-0a2a-40f8-8dc0-4c54237a491b" class="row
               sb-row
               sb-row-opt-padding-top-none
               sb-row-opt-padding-bottom-small
@@ -307,7 +308,7 @@
                     <!--htmlhint spec-char-escape:false -->
 
 
-                    <div id="sb-id-01a697af-de81-4979-b4c5-d306a53298c1" class="sb-column
+                    <div id="sb-id-4810717b-0a72-4ed9-a0ca-4096708dbff8" class="sb-column
               col-xs-12
               col-sm-12
               col-md-12
@@ -327,7 +328,7 @@
               ">
 
 
-                        <div id="sb-id-8d2333c2-8775-4380-a15f-4fc62f3c525f"
+                        <div id="sb-id-2df4df21-aea7-421a-9fdd-09bf90a75db9"
                              class="sb-column-content option-width-12col">
 
     <span style="display: none;">
@@ -340,48 +341,79 @@
 
 
                             <ul class="items-grid sb-list option-width sb-section-alignable "
-                                data-sb-uuid="8d2333c2-8775-4380-a15f-4fc62f3c525f">
+                                data-sb-uuid="2df4df21-aea7-421a-9fdd-09bf90a75db9">
 
                                 <li data-aos="fade-in" data-aos-offset="120" data-aos-delay="0" data-aos-duration="400"
                                     data-aos-easing="ease-in-out" data-aos-once="true"
                                     class="items-grid__item items-grid__item--bg-default  tag-all "
-                                    data-title="expert laravel consulting">
+                                    data-title="developed a custom e-commerce platform for a local retailer">
                                     <div class="items-grid__item-body">
+
+                                        <div class="items-grid__item-image" data-component-field="linkRaw"
+                                             data-sb-field="" data-sb-is-link="" data-sb-type="" data-sb-uuid="">
+
+
+                                            <a aria-label="More about Developed a custom E-commerce platform for a local retailer"
+                                               class="quick-view-2df4df21-aea7-421a-9fdd-09bf90a75db9 sb-animate-image"
+                                               data-caption="<h3>Developed a custom E-commerce platform for a local retailer</h3>Abbey Software Development successfully created a bespoke e-commerce platform tailored to a local retailer's needs. By leveraging Laravel's robust framework, we crafted a user-friendly interface that seamlessly integrates with inventory management and payment processing systems. Our dedicated team collaborated closely with the retailer to ensure that the platform not only met their operational requirements but also enhanced the customer shopping experience. Post-launch, the client reported a significant increase in online sales and customer engagement, proving the effectiveness of our custom solution in driving business growth."
+                                               data-fancybox="images-gallery-2df4df21-aea7-421a-9fdd-09bf90a75db9"
+                                               data-text=""
+                                               href="../cdn.b12.io/client_media/gLX4vMGW/aca4ed8e-3fb0-11f0-84d4-0242ac110002-jpg-hero_image.jpeg"
+                                               skip-data-sb="">
+
+                                                <figure class="option-image grid-with-lightbox__item lazy "
+                                                        data-bg="url('https://cdn.b12.io/client_media/gLX4vMGW/aca4ed8e-3fb0-11f0-84d4-0242ac110002-jpg-hero_image.jpeg')"
+                                                        data-component-field="media"
+                                                        data-custom-media-style="5fe833fb-ef68-4ef9-90c1-03da5b36f7c0"
+                                                        data-sb-field="media" data-sb-is-link=""
+                                                        data-sb-type="reference"
+                                                        data-sb-uuid="950495c1-51da-433d-b8ff-bdcbd161c5cc">
+                                                    <img
+                                                        alt="realistic high-resolution close-up shot of an e-commerce website displayed on a laptop, warm color tones, hyper-realistic style"
+                                                        loading="lazy"
+                                                        src="../cdn.b12.io/client_media/gLX4vMGW/acb0604c-3fb0-11f0-84d4-0242ac110002-jpg-regular_image.jpeg">
+
+
+                                                </figure>
+
+                                            </a>
+
+                                        </div>
 
                                         <div class="items-grid__item-content">
 
                                             <div class="items-grid__header h3" data-component-field="title"
                                                  data-sb-field="title" data-sb-is-link="" data-sb-type="text"
-                                                 data-sb-uuid="64b1850b-ca26-4651-8d15-a67a6706cf07">
-                                                Expert laravel consulting
+                                                 data-sb-uuid="950495c1-51da-433d-b8ff-bdcbd161c5cc">
+                                                Developed a custom E-commerce platform for a local retailer
 
 
                                             </div>
 
 
-                                            <div class="items-grid__summary" data-component-field="itemText"
-                                                 data-sb-field="description" data-sb-is-link="" data-sb-type="text"
-                                                 data-sb-uuid="64b1850b-ca26-4651-8d15-a67a6706cf07">At Abbey Software
-                                                Development, we offer expert Laravel consulting services tailored to
-                                                your project's unique needs. Our experienced developers dig deep into
-                                                your requirements, providing actionable insights and strategies to
-                                                enhance your application’s perfo...
+                                            <div class="items-grid__summary" data-component-field="short_description"
+                                                 data-sb-field="short_description" data-sb-is-link=""
+                                                 data-sb-type="rich-text"
+                                                 data-sb-uuid="950495c1-51da-433d-b8ff-bdcbd161c5cc">Elevated an online
+                                                shopping experience for a local retailer.
                                             </div>
 
 
-                                            <div class="items-grid__link" data-component-field="linkRaw"
-                                                 data-sb-field="" data-sb-is-link="true" data-sb-type=""
-                                                 data-sb-uuid="">
-                                                <a class="" data-component-field="" data-sb-field=""
-                                                   data-sb-is-link="true" data-sb-type=""
-                                                   data-sb-uuid="933b3154-8d5b-4bc4-9ee5-a9c6449cb4f3"
-                                                   href="http://www.b12.io/" rel=" " target="">http://www.b12.io/</a>
+                                            <div class="items-grid__link">
+
+                                                <a aria-label="More about Developed a custom E-commerce platform for a local retailer"
+                                                   class="quick-view-2df4df21-aea7-421a-9fdd-09bf90a75db9-trigger"
+                                                   data-component-field="utility_collection_item_learn_more_link"
+                                                   data-sb-field="text" data-sb-is-link="" data-sb-type="text"
+                                                   data-sb-uuid="677da788-7216-4b33-b03c-897f2b392124"
+                                                   href="index.html#action-link">Learn more</a>
+
                                             </div>
 
 
                                             <div class="items-grid__contact-details" data-component-field="item"
                                                  data-sb-field="" data-sb-is-link="" data-sb-type=""
-                                                 data-sb-uuid="64b1850b-ca26-4651-8d15-a67a6706cf07">
+                                                 data-sb-uuid="950495c1-51da-433d-b8ff-bdcbd161c5cc">
 
 
                                             </div>
@@ -392,43 +424,152 @@
                                 <li data-aos="fade-in" data-aos-offset="120" data-aos-delay="50" data-aos-duration="400"
                                     data-aos-easing="ease-in-out" data-aos-once="true"
                                     class="items-grid__item items-grid__item--bg-default  tag-all "
-                                    data-title="custom application development">
+                                    data-title="created a tailored crm system for a growing startup">
                                     <div class="items-grid__item-body">
+
+                                        <div class="items-grid__item-image" data-component-field="linkRaw"
+                                             data-sb-field="" data-sb-is-link="" data-sb-type="" data-sb-uuid="">
+
+
+                                            <a aria-label="More about Created a tailored CRM system for a growing startup"
+                                               class="quick-view-2df4df21-aea7-421a-9fdd-09bf90a75db9 sb-animate-image"
+                                               data-caption="<h3>Created a tailored CRM system for a growing startup</h3>We partnered with a growing startup to design and develop a custom Customer Relationship Management (CRM) system that addresses their unique business processes. By utilizing Laravel, we built a flexible and scalable solution that enables the startup to manage client interactions efficiently. Our team focused on key functionalities such as lead tracking, sales analytics, and automated follow-ups, ensuring the system aligns perfectly with their operational workflows. The startup has since experienced improved customer retention and streamlined communication, showcasing the power of a well-implemented custom CRM."
+                                               data-fancybox="images-gallery-2df4df21-aea7-421a-9fdd-09bf90a75db9"
+                                               data-text=""
+                                               href="../cdn.b12.io/client_media/gLX4vMGW/acbd55fe-3fb0-11f0-84d4-0242ac110002-jpg-hero_image.jpeg"
+                                               skip-data-sb="">
+
+                                                <figure class="option-image grid-with-lightbox__item lazy "
+                                                        data-bg="url('https://cdn.b12.io/client_media/gLX4vMGW/acbd55fe-3fb0-11f0-84d4-0242ac110002-jpg-hero_image.jpeg')"
+                                                        data-component-field="media"
+                                                        data-custom-media-style="088539ab-49a0-4bb9-bfed-c5946eba9a18"
+                                                        data-sb-field="media" data-sb-is-link=""
+                                                        data-sb-type="reference"
+                                                        data-sb-uuid="d2580064-8166-40ac-aa9e-4f1d3e9c20c9">
+                                                    <img
+                                                        alt="realistic high-resolution close-up shot of a CRM dashboard on a tablet, modern design, warm color tones, hyper-realistic style"
+                                                        loading="lazy"
+                                                        src="../cdn.b12.io/client_media/gLX4vMGW/accd5fc6-3fb0-11f0-84d4-0242ac110002-jpg-regular_image.jpeg">
+
+
+                                                </figure>
+
+                                            </a>
+
+                                        </div>
 
                                         <div class="items-grid__item-content">
 
                                             <div class="items-grid__header h3" data-component-field="title"
                                                  data-sb-field="title" data-sb-is-link="" data-sb-type="text"
-                                                 data-sb-uuid="b6a6f576-5b53-40a6-be48-8a332500eb15">
-                                                Custom application development
+                                                 data-sb-uuid="d2580064-8166-40ac-aa9e-4f1d3e9c20c9">
+                                                Created a tailored CRM system for a growing startup
 
 
                                             </div>
 
 
-                                            <div class="items-grid__summary" data-component-field="itemText"
-                                                 data-sb-field="description" data-sb-is-link="" data-sb-type="text"
-                                                 data-sb-uuid="b6a6f576-5b53-40a6-be48-8a332500eb15">Transform your
-                                                ideas into reality with Abbey Software Development’s custom application
-                                                development services. Our talented team specializes in creating robust
-                                                applications using the Laravel framework, ensuring high performance and
-                                                scalability. We work close...
+                                            <div class="items-grid__summary" data-component-field="short_description"
+                                                 data-sb-field="short_description" data-sb-is-link=""
+                                                 data-sb-type="rich-text"
+                                                 data-sb-uuid="d2580064-8166-40ac-aa9e-4f1d3e9c20c9">Transformed client
+                                                management for a dynamic startup.
                                             </div>
 
 
-                                            <div class="items-grid__link" data-component-field="linkRaw"
-                                                 data-sb-field="" data-sb-is-link="true" data-sb-type=""
-                                                 data-sb-uuid="">
-                                                <a class="" data-component-field="" data-sb-field=""
-                                                   data-sb-is-link="true" data-sb-type=""
-                                                   data-sb-uuid="a5fc4912-569a-412e-bb90-bc9cb712a830"
-                                                   href="http://www.b12.io/" rel=" " target="">http://www.b12.io/</a>
+                                            <div class="items-grid__link">
+
+                                                <a aria-label="More about Created a tailored CRM system for a growing startup"
+                                                   class="quick-view-2df4df21-aea7-421a-9fdd-09bf90a75db9-trigger"
+                                                   data-component-field="utility_collection_item_learn_more_link"
+                                                   data-sb-field="text" data-sb-is-link="" data-sb-type="text"
+                                                   data-sb-uuid="677da788-7216-4b33-b03c-897f2b392124"
+                                                   href="index.html#action-link">Learn more</a>
+
                                             </div>
 
 
                                             <div class="items-grid__contact-details" data-component-field="item"
                                                  data-sb-field="" data-sb-is-link="" data-sb-type=""
-                                                 data-sb-uuid="b6a6f576-5b53-40a6-be48-8a332500eb15">
+                                                 data-sb-uuid="d2580064-8166-40ac-aa9e-4f1d3e9c20c9">
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li data-aos="fade-in" data-aos-offset="120" data-aos-delay="100"
+                                    data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-once="true"
+                                    class="items-grid__item items-grid__item--bg-default  tag-all "
+                                    data-title="implemented a custom inventory management solution for a retail chain">
+                                    <div class="items-grid__item-body">
+
+                                        <div class="items-grid__item-image" data-component-field="linkRaw"
+                                             data-sb-field="" data-sb-is-link="" data-sb-type="" data-sb-uuid="">
+
+
+                                            <a aria-label="More about Implemented a custom inventory management solution for a retail chain"
+                                               class="quick-view-2df4df21-aea7-421a-9fdd-09bf90a75db9 sb-animate-image"
+                                               data-caption="<h3>Implemented a custom inventory management solution for a retail chain</h3>Abbey Software Development designed and implemented a custom inventory management solution for a retail chain facing challenges in stock management. Using Laravel's capabilities, we developed a system that offers real-time tracking of inventory levels, automated restocking alerts, and comprehensive reporting features. Our team worked closely with the client to ensure the solution was user-friendly and met their specific operational needs. The results were remarkable, as the retail chain reported a substantial reduction in stock discrepancies and improved inventory turnover rates after adopting our tailored solution."
+                                               data-fancybox="images-gallery-2df4df21-aea7-421a-9fdd-09bf90a75db9"
+                                               data-text=""
+                                               href="../cdn.b12.io/client_media/gLX4vMGW/aceae8ac-3fb0-11f0-84d4-0242ac110002-jpg-hero_image.jpeg"
+                                               skip-data-sb="">
+
+                                                <figure class="option-image grid-with-lightbox__item lazy "
+                                                        data-bg="url('https://cdn.b12.io/client_media/gLX4vMGW/aceae8ac-3fb0-11f0-84d4-0242ac110002-jpg-hero_image.jpeg')"
+                                                        data-component-field="media"
+                                                        data-custom-media-style="9a08773b-7987-4916-8698-fda6b036889e"
+                                                        data-sb-field="media" data-sb-is-link=""
+                                                        data-sb-type="reference"
+                                                        data-sb-uuid="ef411994-16f5-4798-be75-feb074cef57c">
+                                                    <img
+                                                        alt="realistic high-resolution close-up shot of an inventory management software interface on a desktop monitor, warm color tones, hyper-realistic style"
+                                                        loading="lazy"
+                                                        src="../cdn.b12.io/client_media/gLX4vMGW/ad015222-3fb0-11f0-84d4-0242ac110002-jpg-regular_image.jpeg">
+
+
+                                                </figure>
+
+                                            </a>
+
+                                        </div>
+
+                                        <div class="items-grid__item-content">
+
+                                            <div class="items-grid__header h3" data-component-field="title"
+                                                 data-sb-field="title" data-sb-is-link="" data-sb-type="text"
+                                                 data-sb-uuid="ef411994-16f5-4798-be75-feb074cef57c">
+                                                Implemented a custom inventory management solution for a retail chain
+
+
+                                            </div>
+
+
+                                            <div class="items-grid__summary" data-component-field="short_description"
+                                                 data-sb-field="short_description" data-sb-is-link=""
+                                                 data-sb-type="rich-text"
+                                                 data-sb-uuid="ef411994-16f5-4798-be75-feb074cef57c">Streamlined
+                                                inventory operations for a retail chain.
+                                            </div>
+
+
+                                            <div class="items-grid__link">
+
+                                                <a aria-label="More about Implemented a custom inventory management solution for a retail chain"
+                                                   class="quick-view-2df4df21-aea7-421a-9fdd-09bf90a75db9-trigger"
+                                                   data-component-field="utility_collection_item_learn_more_link"
+                                                   data-sb-field="text" data-sb-is-link="" data-sb-type="text"
+                                                   data-sb-uuid="677da788-7216-4b33-b03c-897f2b392124"
+                                                   href="index.html#action-link">Learn more</a>
+
+                                            </div>
+
+
+                                            <div class="items-grid__contact-details" data-component-field="item"
+                                                 data-sb-field="" data-sb-is-link="" data-sb-type=""
+                                                 data-sb-uuid="ef411994-16f5-4798-be75-feb074cef57c">
 
 
                                             </div>
@@ -454,7 +595,7 @@
 
                 <!--htmlhint spec-char-escape:false -->
 
-                <div id="sb-id-3478e09b-5a58-4d8b-9385-998a6f7416c4" class="row
+                <div id="sb-id-e3f9eee5-c1b4-473a-9f62-d0e8b1f3e873" class="row
               sb-row
               sb-row-opt-padding-top-none
               sb-row-opt-padding-bottom-large
@@ -464,7 +605,7 @@
                     <!--htmlhint spec-char-escape:false -->
 
 
-                    <div id="sb-id-495d2849-09d8-4131-9345-a9be33fd639c" class="sb-column
+                    <div id="sb-id-725172ef-c40b-4936-bbc1-c40d135b30f2" class="sb-column
               col-xs-12
               col-sm-12
               col-md-12
@@ -484,7 +625,7 @@
               ">
 
 
-                        <div id="sb-id-b3c761bf-4c71-44c6-b932-bdd577a790b9" class="sb-column-content ">
+                        <div id="sb-id-33d9970f-3228-4176-8bcd-407daca48590" class="sb-column-content ">
 
                             <p>
                             </p>
@@ -510,24 +651,24 @@
                   sb-section-opt-dark
                   has-background
 
-                  option-width-default option-align-left option-section-hero option-background-image-fixed option-link-decoration-border-bottom-static option-background-image-grayscale"
-                 data-sb-id="c0656c7d-68ec-4adb-8450-3dd4a0f3f71c" style="
+                  option-section-hero option-background-image-grayscale option-align-left option-width-default option-background-image-fixed option-link-decoration-border-bottom-static"
+                 data-sb-id="cda2abc8-5893-424a-9afe-db6f43023185" style="
            min-height: auto;
            ">
 
 
-            <div data-custom-media-style="d39016ca-619e-4b7c-a42f-aa637cda3e12" class="sb-background lazy" data-bg="
+            <div data-custom-media-style="b3e1d90b-9d35-4816-be93-aa886f90968d" class="sb-background lazy" data-bg="
 
               linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
 
-            url('https://cdn.b12.io/client_media/gLX4vMGW/f191e46a-3fb0-11f0-a9c7-0242ac110002-jpg-hero_image.jpeg')
+            url('https://cdn.b12.io/client_media/gLX4vMGW/a924e646-3fb0-11f0-84d4-0242ac110002-jpg-hero_image.jpeg')
           " style="
 
             background-image:
 
                 linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
 
-              url('../cdn.b12.io/client_media/gLX4vMGW/f1adafec-3fb0-11f0-a9c7-0242ac110002-jpg-regular_image.jpeg')
+              url('../cdn.b12.io/client_media/gLX4vMGW/a9552bbc-3fb0-11f0-84d4-0242ac110002-jpg-regular_image.jpeg')
           "></div>
 
 
@@ -536,7 +677,7 @@
                 sb-container">
                 <!--htmlhint spec-char-escape:false -->
 
-                <div id="sb-id-7c9e092f-4a4f-4b6d-bcf4-171e245dfbbf" class="row
+                <div id="sb-id-5d44df47-0a15-41cf-9034-7c314e593429" class="row
               sb-row
               sb-row-opt-padding-top-large
               sb-row-opt-padding-bottom-large
@@ -546,7 +687,7 @@
                     <!--htmlhint spec-char-escape:false -->
 
 
-                    <div id="sb-id-1baa05fc-7fd7-41b5-890a-525519c4b0ec" class="sb-column
+                    <div id="sb-id-acd9a955-9bb5-4c5e-82ab-c7b141d203da" class="sb-column
               col-xs-12
               col-sm-12
               col-md-12
@@ -566,13 +707,13 @@
               ">
 
 
-                        <div id="sb-id-134731fe-afb2-453a-ad36-674379b771fa" class="sb-column-content ">
+                        <div id="sb-id-eadca153-b1d8-4cef-9919-456392540ed7" class="sb-column-content ">
 
                             <p>
 
                             </p>
                             <div class="sb-content sb-hero option-width sb-section-alignable has-sb-hero__paragraph"
-                                 data-sb-uuid="134731fe-afb2-453a-ad36-674379b771fa">
+                                 data-sb-uuid="eadca153-b1d8-4cef-9919-456392540ed7">
                                 <div class="sb-hero__content-wrapper">
 
 
@@ -580,7 +721,7 @@
                                          data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-once="true"
                                          class="sb-title sb-hero__title" data-component-field="title"
                                          data-sb-field="text" data-sb-is-link="" data-sb-type="text"
-                                         data-sb-uuid="c1527b79-7ba9-435a-9247-6fbf73379ed5">Get in touch
+                                         data-sb-uuid="1937fd52-8601-412f-9c2a-43336f575088">Get in touch
                                     </div>
 
 
@@ -588,8 +729,8 @@
                                          data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-once="true"
                                          class="sb-subtitle sb-hero__subtitle" data-component-field="subtitle"
                                          data-sb-field="text" data-sb-is-link="" data-sb-type="text"
-                                         data-sb-uuid="7cf5e986-8592-46b5-8d2b-493f1fda1b91">Let's build something
-                                        amazing together!
+                                         data-sb-uuid="491a5a61-2a52-4e22-8654-9de847350d96">We’re here to help you
+                                        succeed.
                                     </div>
 
                                 </div>
@@ -602,7 +743,7 @@
                   data-aos-easing="ease-in-out" data-aos-once="true" data-component-field="" data-sb-field=""
                   data-sb-is-link="true" data-sb-type="" data-sb-uuid="">
 <a class="sb-cta-wrapper__btn sb-button sb-button--secondary" data-component-field="linkRaw" data-sb-field=""
-   data-sb-is-link="true" data-sb-type="" data-sb-uuid="be7b418b-8fc3-4e02-b6e6-1cc5a4ac135a" href="/contact"
+   data-sb-is-link="true" data-sb-type="" data-sb-uuid="6ef2f491-3683-484a-93bd-4f63775b7a88" href="/contact"
    rel=" " target="">Get in touch</a>
 </span>
 
@@ -777,8 +918,8 @@
                                                 </li>
 
 
-                                                <li class="active" data-component-field="navigationLink"
-                                                    data-sb-field="" data-sb-is-link="true" data-sb-type=""
+                                                <li class="" data-component-field="navigationLink" data-sb-field=""
+                                                    data-sb-is-link="true" data-sb-type=""
                                                     data-sb-uuid="9c8a2d9c-20c7-42ff-be4a-1b08fe67f08e">
                                                     <a class="sb-link " data-component-field="" data-sb-field=""
                                                        data-sb-is-link="true" data-sb-type=""
@@ -945,10 +1086,10 @@
         <script>
             $(function () {
                 b12.deferredRun("lightbox.runModal", {
-                    "className": ".quick-view-8d2333c2-8775-4380-a15f-4fc62f3c525f",
-                    "classForTriggers": ".quick-view-8d2333c2-8775-4380-a15f-4fc62f3c525f-trigger",
-                    "sectionClasses": ["option-align-content-left", "option-background-image-fixed", "option-imagecrop-rectangle-landscape", "option-animate-image-fade", "option-columns-2col", "option-link-decoration-border-bottom-static", "option-grid-align-default", "option-imagesize-lg", "option-background-image-grayscale"],
-                    "uuid": "8d2333c2-8775-4380-a15f-4fc62f3c525f"
+                    "className": ".quick-view-2df4df21-aea7-421a-9fdd-09bf90a75db9",
+                    "classForTriggers": ".quick-view-2df4df21-aea7-421a-9fdd-09bf90a75db9-trigger",
+                    "sectionClasses": ["option-grid-align-default", "option-background-image-grayscale", "option-align-content-left", "option-animate-image-fade", "option-imagecrop-square", "option-columns-4col", "option-imagesize-lg", "option-background-image-fixed", "option-link-decoration-border-bottom-static"],
+                    "uuid": "2df4df21-aea7-421a-9fdd-09bf90a75db9"
                 });
             });
         </script>

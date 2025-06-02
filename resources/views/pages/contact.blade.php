@@ -1,4 +1,4 @@
-@extends('stylist::layouts.master')
+@extends('layouts.master')
 
 @section('content')
 
@@ -12,7 +12,7 @@
 
     </div>
 
-    @include('stylist::partials.navigation')
+    @include('partials.navigation')
     <div id="sb-page-structure">
         <!--htmlhint attr-no-duplication:false -->
 

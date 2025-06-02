@@ -1,4 +1,4 @@
-@extends('stylist::layouts.master')
+@extends('layouts.master')
 
 @section('content')
 
@@ -12,41 +12,25 @@
 
     </div>
 
-    @include('stylist::partials.navigation')
+    @include('partials.navigation')
     <div id="sb-page-structure">
         <!--htmlhint attr-no-duplication:false -->
 
-        <section id="blog-hero" class="sb-section
-                  sb-section-opt-dark
-                  has-background
+        <section id="sb-id-45806cdc-0ad6-4cdf-92e8-ac968f95cf82" class="sb-section
+                  sb-section-opt-light
 
-                  option-width-default option-align-left option-section-hero option-background-image-fixed option-link-decoration-border-bottom-static option-background-image-grayscale"
-                 data-sb-id="3eed491c-9a55-4417-aedc-d259c8a91446" style="
-           min-height: auto;
+
+                  option-width-8col option-background-image-fixed option-background-image-grayscale option-media-left option-imagesize-lg option-image-width-4col option-image-align-mobile-left option-imagecrop-rectangle-portrait option-align-left option-link-decoration-border-bottom-static option-imagesize-mobile-lg option-section-background-image-fixed option-image-align-center option-button-none"
+                 data-sb-id="45806cdc-0ad6-4cdf-92e8-ac968f95cf82" style="
+
            ">
-
-
-            <div data-custom-media-style="a6228d30-4a4c-4357-8559-312aad1f0a02" class="sb-background " data-bg="
-
-              linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-
-            url('../cdn.b12.io/client_media/gLX4vMGW/bac39fdc-3fb0-11f0-8614-0242ac110002-jpg-hero_image.jpeg')
-          " style="
-
-            background-image:
-
-                linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-
-              url('../cdn.b12.io/client_media/gLX4vMGW/bac39fdc-3fb0-11f0-8614-0242ac110002-jpg-hero_image.jpeg')
-          "></div>
-
 
             <div class="container
                 sb-container-fixed
                 sb-container">
                 <!--htmlhint spec-char-escape:false -->
 
-                <div id="sb-id-08e81d89-0450-46df-8336-1f0901d680cc" class="row
+                <div id="sb-id-5a954f28-787d-4185-b265-0e1a93798c66" class="row
               sb-row
               sb-row-opt-padding-top-large
               sb-row-opt-padding-bottom-large
@@ -56,7 +40,167 @@
                     <!--htmlhint spec-char-escape:false -->
 
 
-                    <div id="sb-id-42953501-5a47-4640-98a9-a879d889a236" class="sb-column
+                    <div id="sb-id-94211ab2-a5cc-4eb3-89c7-048e6eca3abd" class="sb-column
+              col-xs-12
+              col-sm-12
+              col-md-12
+              col-lg-12
+              col-xl-12
+              col-xs-offset-0
+              col-sm-offset-0
+              col-md-offset-0
+              col-lg-offset-0
+              col-xl-offset-0
+
+              sb-component-text-image
+
+
+              " style="
+
+              ">
+
+
+                        <div id="sb-id-6da7b0bb-6c63-4d8d-bcb7-3238b22b040c" class="sb-column-content ">
+
+                            <p>
+
+
+                            </p>
+                            <div class="sb-text-image sb-section-alignable"
+                                 data-sb-uuid="6da7b0bb-6c63-4d8d-bcb7-3238b22b040c">
+                                <div class="sb-text-image__content option-width">
+
+
+                                    <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="0"
+                                         data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-once="true"
+                                         class="sb-title sb-text-image__content-title " data-component-field="title"
+                                         data-sb-field="" data-sb-is-link="" data-sb-type="rich-text"
+                                         data-sb-uuid="6a850783-43a1-42b2-8010-581c34209b2f">Laravel migration services
+                                    </div>
+
+
+                                    <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="100"
+                                         data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-once="true"
+                                         class="sb-text-image__content-paragraph" data-component-field="paragraph"
+                                         data-sb-field="" data-sb-is-link="" data-sb-type="rich-text"
+                                         data-sb-uuid="6a850783-43a1-42b2-8010-581c34209b2f"><p>Transitioning to Laravel
+                                            has never been easier with our comprehensive migration services. Our skilled
+                                            team ensures a smooth and efficient migration process, minimizing downtime
+                                            and disruption to your business operations. We assess your current
+                                            application architecture and develop a tailored migration strategy that
+                                            preserves data integrity and functionality. Whether you are moving from an
+                                            older framework or upgrading your existing Laravel application, we handle
+                                            every aspect of the migration with precision and care. Trust us to modernize
+                                            your system and enhance its performance while providing ongoing support
+                                            throughout the transition.</p></div>
+
+                                    <div class="sb-text-image__content-cta">
+                                        <div class="sb-cta-wrapper sb-section-alignable ">
+
+
+
+              <span data-aos="slide-up" data-aos-offset="120" data-aos-delay="200" data-aos-duration="400"
+                    data-aos-easing="ease-in-out" data-aos-once="true" data-component-field="" data-sb-field=""
+                    data-sb-is-link="true" data-sb-type="" data-sb-uuid="">
+<a class="sb-cta-wrapper__btn sb-button sb-button--primary" data-component-field="linkRaw" data-sb-field=""
+   data-sb-is-link="true" data-sb-type="" data-sb-uuid="1b6dcc01-942d-4209-ae7c-981e18cd9766" href="scheduling.html"
+   rel=" " target="_blank">Schedule appointment</a>
+</span>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div data-aos="fade-in" data-aos-offset="120" data-aos-delay="0" data-aos-duration="400"
+                                     data-aos-easing="ease-in-out" data-aos-once="true" class="sb-text-image__image">
+
+
+                                    <figure
+                                        data-bg="url(https://cdn.b12.io/client_media/gLX4vMGW/805740f4-3fad-11f0-be32-0242ac110002-jpg-hero_image.jpeg)"
+                                        class="option-image lazy"
+                                        data-custom-media-style="9a97f0e7-f927-4410-a258-d2b1673d31d9" skip-data-sb=""
+                                        style="">
+                                        <img alt="close up shot of a migration process on a computer" loading="lazy"
+                                             src="../cdn.b12.io/client_media/gLX4vMGW/805740f4-3fad-11f0-be32-0242ac110002-jpg-hero_image.jpeg">
+                                    </figure>
+                                    <div class="sb-text-image__image-caption" data-component-field="image"
+                                         data-sb-field="caption" data-sb-is-link="" data-sb-type="rich-text"
+                                         data-sb-uuid="9a97f0e7-f927-4410-a258-d2b1673d31d9"></div>
+
+
+                                </div>
+                            </div>
+                            <script>
+                                $(function () {
+                                    var $elem = $('[data-sb-uuid="6da7b0bb-6c63-4d8d-bcb7-3238b22b040c"]'),
+                                        $section = $elem.closest('.sb-section'),
+                                        hasProperClass = !!($section.hasClass('option-text-image-float-left') || $section.hasClass('option-text-image-float-right'));
+
+                                    mq('(min-width: 767px)', function (match) {
+                                        if (match && hasProperClass) {
+                                            $elem.find('.option-image').prependTo($section);
+                                        } else {
+                                            $section.find('.option-image').prependTo($elem.find('.sb-text-image__image'));
+                                        }
+                                    });
+
+                                    function mq(query, callback, usePolyfill) {
+                                        var host = {};
+                                        var isMatchMediaSupported = !!(window && window.matchMedia) && !usePolyfill;
+
+                                        if (isMatchMediaSupported) {
+                                            var res = window.matchMedia(query);
+
+                                            callback.apply(host, [res.matches, res.media]);
+
+                                            res.addListener(function (changed) {
+                                                callback.apply(host, [changed.matches, changed.media]);
+                                            });
+                                        }
+                                    }
+                                })
+                            </script>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <!--htmlhint attr-no-duplication:false -->
+
+        <section id="sb-id-7e511422-c4cb-4591-91f7-1319fa49fb1a" class="sb-section
+                  sb-section-opt-dark
+
+
+                  option-background-image-fixed option-background-image-grayscale option-content-width-default sb-hero-simple-section option-align-left option-link-decoration-border-bottom-static option-hero-cta-2col option-section-background-image-fixed option-width-12col"
+                 data-sb-id="7e511422-c4cb-4591-91f7-1319fa49fb1a" style="
+           min-height: auto;
+           ">
+
+            <div class="container
+                sb-container-fixed
+                sb-container">
+                <!--htmlhint spec-char-escape:false -->
+
+                <div id="sb-id-64eab5fc-b4d5-486d-a2e9-6e19281f0511" class="row
+              sb-row
+              sb-row-opt-padding-top-large
+              sb-row-opt-padding-bottom-large
+              sb-row-opt-center
+
+              ">
+                    <!--htmlhint spec-char-escape:false -->
+
+
+                    <div id="sb-id-eba48689-28c7-4312-bdfc-767b31878f69" class="sb-column
               col-xs-12
               col-sm-12
               col-md-12
@@ -76,411 +220,48 @@
               ">
 
 
-                        <div id="sb-id-cb32d5ed-1790-44d0-a080-7eafbcbdf153" class="sb-column-content ">
+                        <div id="sb-id-1e1ca055-12f8-4baa-991e-b8a1c7354542" class="sb-column-content ">
 
                             <p>
 
                             </p>
                             <div class="sb-content sb-hero option-width sb-section-alignable has-sb-hero__paragraph"
-                                 data-sb-uuid="cb32d5ed-1790-44d0-a080-7eafbcbdf153">
+                                 data-sb-uuid="1e1ca055-12f8-4baa-991e-b8a1c7354542">
                                 <div class="sb-hero__content-wrapper">
 
 
-                                    <h1 data-aos="slide-up" data-aos-offset="120" data-aos-delay="0"
-                                        data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-once="true"
-                                        class="sb-title sb-hero__title" data-component-field="title"
-                                        data-sb-field="text" data-sb-is-link="" data-sb-type="text"
-                                        data-sb-uuid="c90082c0-2936-4d92-b2c9-4d58428d532b">Laravel insights</h1>
+                                    <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="0"
+                                         data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-once="true"
+                                         class="sb-title sb-hero__title" data-component-field="title"
+                                         data-sb-field="text" data-sb-is-link="" data-sb-type="text"
+                                         data-sb-uuid="3df0b7e7-cca4-467d-b91f-7a1425173e4a">Let's talk
+                                    </div>
 
 
                                     <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="50"
                                          data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-once="true"
                                          class="sb-subtitle sb-hero__subtitle" data-component-field="subtitle"
                                          data-sb-field="text" data-sb-is-link="" data-sb-type="text"
-                                         data-sb-uuid="3c1421bb-21e0-4131-a939-bafc6ee60cee">Explore the world of custom
-                                        development
+                                         data-sb-uuid="4e710c4c-5252-4963-99c9-2775372d02a5">We would love to hear from
+                                        you!
                                     </div>
 
                                 </div>
-                                <div class="sb-cta-wrapper sb-section-alignable sb-btn-full-width">
+                                <div class="sb-cta-wrapper sb-section-alignable ">
 
 
-                                </div>
-                            </div>
 
 
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-
-            </div>
-        </section>
-
-        <!--htmlhint attr-no-duplication:false -->
-
-        <section id="blog" class="sb-section
-                  sb-section-opt-light
-
-
-                  option-date-hide-time option-align-content-left option-imagecrop-square option-background-image-fixed option-animate-image-fade option-media-row-left option-image-width-4col option-link-decoration-border-bottom-static option-load-more-items-to-show-5 option-imagesize-lg option-background-image-grayscale"
-                 data-sb-id="85bab80f-8407-4e76-8e8a-c1675b607d17" style="
-
-           ">
-
-            <div class="container
-                sb-container-fixed
-                sb-container">
-                <!--htmlhint spec-char-escape:false -->
-
-                <div id="sb-id-cbc529c3-191d-461c-9f17-ae54e3c7aa8b" class="row
-              sb-row
-              sb-row-opt-padding-top-large
-              sb-row-opt-padding-bottom-none
-              sb-row-opt-center
-
-              ">
-                    <!--htmlhint spec-char-escape:false -->
-
-
-                    <div id="sb-id-91f6f657-1f44-4321-8974-f20b4868cfc1" class="sb-column
-              col-xs-12
-              col-sm-12
-              col-md-12
-              col-lg-12
-              col-xl-12
-              col-xs-offset-0
-              col-sm-offset-0
-              col-md-offset-0
-              col-lg-offset-0
-              col-xl-offset-0
-
-              sb-component-section-title
-
-
-              " style="
-
-              ">
-
-
-                        <div id="sb-id-4cb45daf-1528-4459-a79a-73d61a081c8e" class="sb-column-content ">
-
-                            <p>
-
-
-                            </p>
-                            <div style="display: none;">
-
-                            </div>
-
-                            <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="0" data-aos-duration="400"
-                                 data-aos-easing="ease-in-out" data-aos-once="true"
-                                 class="sb-section-title sb-section-alignable option-width "
-                                 data-component-field="title" data-sb-field="text" data-sb-is-link=""
-                                 data-sb-type="text" data-sb-uuid="13db3e37-3cc3-4c53-9210-9e93d89fe91f">Insights on
-                                laravel
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-
-                <!--htmlhint spec-char-escape:false -->
-
-                <div id="sb-id-b1c53910-e954-4c95-ac83-5427ab9e051a" class="row
-              sb-row
-              sb-row-opt-padding-top-none
-              sb-row-opt-padding-bottom-none
-              sb-row-opt-center
-
-              ">
-                    <!--htmlhint spec-char-escape:false -->
-
-
-                    <div id="sb-id-724dbe48-9af8-4c82-8669-65739801e23b" class="sb-column
-              col-xs-12
-              col-sm-12
-              col-md-12
-              col-lg-12
-              col-xl-12
-              col-xs-offset-0
-              col-sm-offset-0
-              col-md-offset-0
-              col-lg-offset-0
-              col-xl-offset-0
-
-              sb-component-section-subtitle
-
-
-              " style="
-
-              ">
-
-
-                        <div id="sb-id-0ebea628-9627-48c5-b790-3e3c10cb856c" class="sb-column-content ">
-
-                            <p></p>
-                            <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="50" data-aos-duration="400"
-                                 data-aos-easing="ease-in-out" data-aos-once="true"
-                                 class="sb-section-subtitle sb-section-alignable option-width"
-                                 data-component-field="subtitle" data-sb-field="text" data-sb-is-link=""
-                                 data-sb-type="text" data-sb-uuid="06fdc515-0ffd-4919-8437-b732d0c97938">Explore the
-                                latest in custom development
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-
-                <!--htmlhint spec-char-escape:false -->
-
-                <div id="sb-id-e8b8584b-b1ee-45e8-ada8-e2412beb1f8b" class="row
-              sb-row
-              sb-row-opt-padding-top-none
-              sb-row-opt-padding-bottom-small
-              sb-row-opt-top
-
-              ">
-                    <!--htmlhint spec-char-escape:false -->
-
-
-                    <div id="sb-id-380ff854-536e-478a-95fb-435c8a3c36b9" class="sb-column
-              col-xs-12
-              col-sm-12
-              col-md-12
-              col-lg-12
-              col-xl-12
-              col-xs-offset-0
-              col-sm-offset-0
-              col-md-offset-0
-              col-lg-offset-0
-              col-xl-offset-0
-
-              sb-component-paragraph
-
-
-              " style="
-
-              ">
-
-
-                        <div id="sb-id-bf6ad23a-a83a-41bc-9377-ee2fa8974521" class="sb-column-content ">
-
-                            <div data-aos="slide-up" data-aos-offset="120" data-aos-delay="100" data-aos-duration="400"
-                                 data-aos-easing="ease-in-out" data-aos-once="true"
-                                 class="sb-paragraph option-width sb-section-alignable" data-component-field="text"
-                                 data-sb-field="text" data-sb-is-link="" data-sb-type="rich-text"
-                                 data-sb-uuid="5b97383b-1c7e-4021-b043-6deb96515557">
-                                <p></p>
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-
-                <!--htmlhint spec-char-escape:false -->
-
-                <div id="sb-id-739b1441-4a13-412e-8247-27932d7639f6" class="row
-              sb-row
-              sb-row-opt-padding-top-none
-              sb-row-opt-padding-bottom-small
-              sb-row-opt-top
-
-              ">
-                    <!--htmlhint spec-char-escape:false -->
-
-
-                    <div id="sb-id-f2fa417b-f949-4aa4-bb03-b9f9dafaed2c" class="sb-column
-              col-xs-12
-              col-sm-12
-              col-md-12
-              col-lg-12
-              col-xl-12
-              col-xs-offset-0
-              col-sm-offset-0
-              col-md-offset-0
-              col-lg-offset-0
-              col-xl-offset-0
-
-              sb-component-blog-card
-
-
-              " style="
-
-              ">
-
-
-                        <div id="sb-id-410a7e1c-5129-4eae-80c5-1c6f82366e1e"
-                             class="sb-column-content option-width-12col">
-
-    <span style="display: none;">
-
-
-
+            <span data-aos="slide-up" data-aos-offset="120" data-aos-delay="150" data-aos-duration="400"
+                  data-aos-easing="ease-in-out" data-aos-once="true" data-component-field="" data-sb-field=""
+                  data-sb-is-link="true" data-sb-type="" data-sb-uuid="">
+<a class="sb-cta-wrapper__btn sb-button sb-button--secondary" data-component-field="linkRaw" data-sb-field=""
+   data-sb-is-link="true" data-sb-type="" data-sb-uuid="6f824d03-0c85-4d8d-9e72-d2794591a2c1" href="/contact"
+   rel=" " target="">Get in touch</a>
 </span>
 
 
-                            <ul class="items-grid sb-blog option-width sb-section-alignable "
-                                data-sb-uuid="410a7e1c-5129-4eae-80c5-1c6f82366e1e">
-
-                                <li data-aos="fade-in" data-aos-offset="120" data-aos-delay="0" data-aos-duration="400"
-                                    data-aos-easing="ease-in-out" data-aos-once="true"
-                                    class="items-grid__item sb-blog-card items-grid__item--bg-default  tag-all  "
-                                    data-title="unlocking the power of custom laravel development">
-                                    <div class="items-grid__item-body">
-
-                                        <div class="items-grid__item-image" data-component-field="linkRaw"
-                                             data-sb-field="" data-sb-is-link="" data-sb-type="" data-sb-uuid="">
-
-
-                                            <a aria-label="Read more" class="sb-animate-image" data-sb-is-link="true"
-                                               data-sb-uuid="f593969e-2f5c-46e1-81b3-2d9000326eab"
-                                               href="unlocking-the-power-of-custom-laravel-development.html" rel=" "
-                                               skip-data-sb="" target="">
-
-                                                <figure class="option-image  lazy"
-                                                        data-bg="url(https://cdn.b12.io/client_media/gLX4vMGW/c6ddfa60-3fb0-11f0-8614-0242ac110002-jpg-regular_image.jpeg)"
-                                                        data-component-field="featured_image"
-                                                        data-custom-media-style="ea32bd8a-e62a-46ec-afca-04e048098a7a"
-                                                        data-sb-field="featured_image" data-sb-is-link=""
-                                                        data-sb-type="reference"
-                                                        data-sb-uuid="f593969e-2f5c-46e1-81b3-2d9000326eab">
-                                                    <img alt="**Prompt for AI Image Generator:**
-
-Generate a realistic high-resolution photo that embodies the theme of the blog titled &quot;Unlocking the Power of Custom Laravel Development.&quot; The composition should be simple and clear, showcasing a single subject: a confident software developer sitting at a sleek modern desk, intently focused on their laptop, which displays lines of elegant code.
-
-The developer should be a young professional, showing diversity, with a slight smile that conveys enthusiasm for innovation. Th"
-                                                         loading="lazy"
-                                                         src="../cdn.b12.io/client_media/gLX4vMGW/c6ddfa60-3fb0-11f0-8614-0242ac110002-jpg-regular_image.jpeg">
-
-                                                </figure>
-
-                                            </a>
-
-                                        </div>
-
-                                        <div class="items-grid__item-content ">
-
-                                            <div class="items-grid__header h3" data-component-field="title"
-                                                 data-sb-field="title" data-sb-is-link="" data-sb-type="text"
-                                                 data-sb-uuid="f593969e-2f5c-46e1-81b3-2d9000326eab">Unlocking the power
-                                                of custom laravel development
-                                            </div>
-
-
-                                            <div class="items-grid__date h5"><span class="items-grid__date-date"
-                                                                                   data-component-field="date"
-                                                                                   data-sb-field="date"
-                                                                                   data-sb-is-link=""
-                                                                                   data-sb-type="datetime"
-                                                                                   data-sb-uuid="f593969e-2f5c-46e1-81b3-2d9000326eab">June 2, 2025</span>
-                                                <span class="items-grid__date-at">at</span> <span
-                                                    class="items-grid__date-time" data-component-field="date"
-                                                    data-sb-field="date" data-sb-is-link="" data-sb-type="datetime"
-                                                    data-sb-uuid="f593969e-2f5c-46e1-81b3-2d9000326eab">12:54 PM</span>
-                                            </div>
-
-
-                                            <div class="items-grid__summary" data-component-field="summary"
-                                                 data-sb-field="body" data-sb-is-link="" data-sb-type="text"
-                                                 data-sb-uuid="f593969e-2f5c-46e1-81b3-2d9000326eab">Are you ready to
-                                                elevate your business with the power of custom Laravel development? In
-                                                this blog post, we dive into the numerous benefits that tailored Laravel
-                                                solutions bring to your organization, highlighting how they can propel
-                                                your growth and success. Learn how personalized applications can
-                                                seamlessly meet your unique challenges, transforming them into
-                                                opportunities for innovation and efficiency. Discover how unlocking the
-                                                full potential of Laravel can be a game-changer for your business,
-                                                paving the way for a brighter, more prosperous future.
-                                            </div>
-
-
-                                            <div class="items-grid__link" data-component-field="linkRaw"
-                                                 data-sb-field="" data-sb-is-link="true" data-sb-type=""
-                                                 data-sb-uuid="">
-                                                <a class="sb-button sb-button--secondary" data-component-field=""
-                                                   data-sb-field="" data-sb-is-link="true" data-sb-type=""
-                                                   data-sb-uuid="f593969e-2f5c-46e1-81b3-2d9000326eab"
-                                                   href="unlocking-the-power-of-custom-laravel-development.html" rel=" "
-                                                   target="">Read more</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </li>
-
-                            </ul>
-
-
-                            <div skip-data-sb="" style="display: none;">
-
-                            </div>
-
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-
-                <!--htmlhint spec-char-escape:false -->
-
-                <div id="sb-id-38e51dbc-0aca-4c5b-a7e1-d6465b51425b" class="row
-              sb-row
-              sb-row-opt-padding-top-none
-              sb-row-opt-padding-bottom-large
-              sb-row-opt-center
-
-              ">
-                    <!--htmlhint spec-char-escape:false -->
-
-
-                    <div id="sb-id-70bad8e8-cc57-4d84-8b4c-dab01115a0d2" class="sb-column
-              col-xs-12
-              col-sm-12
-              col-md-12
-              col-lg-12
-              col-xl-12
-              col-xs-offset-0
-              col-sm-offset-0
-              col-md-offset-0
-              col-lg-offset-0
-              col-xl-offset-0
-
-              sb-component-call-to-action
-
-
-              " style="
-
-              ">
-
-
-                        <div id="sb-id-33c3d9d7-ae71-4c85-b129-478d4c89501c" class="sb-column-content ">
-
-                            <p>
-                            </p>
-                            <div class="sb-cta-wrapper sb-section-alignable sb-btn-full-width">
-
+                                </div>
                             </div>
 
 
@@ -817,12 +598,7 @@ The developer should be a young professional, showing diversity, with a slight s
 
         <script>
             $(function () {
-                b12.deferredRun("lightbox.runModal", {
-                    "className": ".quick-view-410a7e1c-5129-4eae-80c5-1c6f82366e1e",
-                    "classForTriggers": ".quick-view-410a7e1c-5129-4eae-80c5-1c6f82366e1e-trigger",
-                    "sectionClasses": ["option-date-hide-time", "option-align-content-left", "option-imagecrop-square", "option-background-image-fixed", "option-animate-image-fade", "option-media-row-left", "option-image-width-4col", "option-link-decoration-border-bottom-static", "option-load-more-items-to-show-5", "option-imagesize-lg", "option-background-image-grayscale"],
-                    "uuid": "410a7e1c-5129-4eae-80c5-1c6f82366e1e"
-                });
+
             });
         </script>
 

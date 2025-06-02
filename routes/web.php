@@ -3,36 +3,36 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('stylist::index');
+    return view('index');
 });
 
 Route::get('/about', function () {
-    return view('stylist::pages.about');
+    return view('pages.about');
 });
 
 Route::get('/services', function () {
-    return view('stylist::pages.api-development');
+    return view('pages.api-development');
 });
 
 Route::get('/projects', function () {
-    return view('stylist::pages.projects');
+    return view('pages.projects');
 });
 
 Route::get('/blog', function () {
-    return view('stylist::pages.blog');
+    return view('pages.blog');
 });
 
 Route::get('/downloads', function () {
-    return view('stylist::pages.downloads');
+    return view('pages.downloads');
 });
 
 Route::get('/faq', function () {
-    return view('stylist::pages.faq');
+    return view('pages.faq');
 });
 
 
 Route::get('/contact', function () {
-    return view('stylist::pages.contact');
+    return view('pages.contact');
 });
 
 Route::middleware([

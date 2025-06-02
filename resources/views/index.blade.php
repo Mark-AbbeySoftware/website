@@ -1,4 +1,4 @@
-@extends('stylist::layouts.master')
+@extends('layouts.master')
 
 @section('content')
     <a class="skip-to-main-content" href="#sb-page-structure" style="">
@@ -7,7 +7,7 @@
 
 
 
-    @include('stylist::partials.navigation')
+    @include('partials.navigation')
 
 
     <div id="sb-page-structure">
