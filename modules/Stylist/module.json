@@ -1,0 +1,13 @@
+{
+    "name": "Stylist",
+    "alias": "stylist",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Stylist\\Providers\\StylistServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
