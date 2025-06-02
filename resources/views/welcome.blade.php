@@ -22,8 +22,11 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet'
           type='text/css'>
+
+
 </head>
 <body class="landing-page landing-page2">
+{{--
 <nav class="navbar navbar-transparent navbar-top" role="navigation">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -71,6 +74,7 @@
         <!-- /.navbar-collapse -->
     </div>
 </nav>
+--}}
 <div class="wrapper">
     <div class="parallax filter-gradient blue" data-color="blue">
         <div class="container">
@@ -152,7 +156,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="demo-image">
-                        <img src="{{asset('build/img/showcases/showcase-2/examples/dashboard_4.jpg')}}" alt="">
+                        <img src="{{asset('build/img/showcase-2/examples/home_4.jpg')}}" alt="">
                     </div>
                 </div>
                 <div class="col-md-5 col-md-offset-1">
@@ -184,7 +188,7 @@
                 </div>
                 <div class="col-md-6 col-md-offset-1">
                     <div class="demo-image">
-                        <img src="{{asset('build/img/showcases/showcase-2/examples/dashboard_6.jpg')}}" alt="">
+                        <img src="{{asset('build/img/showcase-2/examples/home_6.jpg')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -338,6 +342,7 @@
         </div>
     </footer>
 </div>
+{{--
 <div class="fixed-plugin">
     <div class="dropdown open">
         <a href="#" data-toggle="dropdown">
@@ -381,9 +386,7 @@
         </ul>
     </div>
 </div>
+--}}
 </body>
-<script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
-<script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
-<script src="assets/js/bootstrap.js" type="text/javascript"></script>
-<script src="assets/js/awesome-landing-page.js" type="text/javascript"></script>
+
 </html>
